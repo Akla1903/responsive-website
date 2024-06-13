@@ -5,6 +5,7 @@ body{
 header {
     flex-direction: column;
     align-items: center;
+    
 }
 header img{
     position: relative;
@@ -28,13 +29,15 @@ header li a {
 } */
 section::before{
     width: 100vw;
+    
 }
 .services{
     /* flex-wrap: wrap; */
     flex-direction: column;
 }
 .clientbox1::before{
-    height: 10rem;
+    margin: 20px 0px;
+    height: 12rem;
 }
 .clientbox1{
     flex-wrap: wrap;
@@ -49,6 +52,6 @@ section::before{
 } */
 .contact-box input,
 .contact-box textarea{
-    width: 230px;
+    width: 200px;
     
 }
