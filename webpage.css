@@ -1,0 +1,241 @@
+                                     /* css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    /* left: -3px; */
+}
+                                     /* Utility classes */
+.center{
+align-items: center;
+text-align: center;
+}
+
+.h-primary{
+font-size: 2.6rem;
+color: rgb(85, 64, 64);
+text-shadow: 1px 1px rgb(120, 813, 193);
+}
+
+.h-secondary{
+    font-size: 1.9rem;
+    color: rgb(85, 64, 64);
+    
+}
+
+
+                                     /* set background-color light grey to body give foggy effect to background image */
+body { 
+    background-color: rgba(124, 115, 115, 0.315);
+ }
+
+                                     /* to set background image and its opacity */
+
+
+
+                                     /* Navigation Bar */
+ 
+header {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    height: 38px;
+    padding: 8px 5px;
+    border: 2px solid red;
+    border-radius: 40px;
+    background: rgba(200, 210, 228, 0.75);
+}
+
+                                     /* navigation bar home logo */
+
+header img{
+    border: .1px solid rgb(12, 9, 9);
+    border-radius: 22px;
+    margin: 0px 10px;
+    height: 35px;
+}
+
+#logo{
+    display: flex;
+    /* border: 2px solid red; */
+    line-height: 24px;
+    text-decoration: none;
+}
+
+header a span{
+    position: relative;
+    margin: 0px;
+    padding: 7px;
+    left: -15px;
+}
+
+
+
+#navbar {
+    display: flex;
+    /* background: rgb(15, 4, 4); */
+    /* justify-content: end; */
+    /* width: 39rem; */
+    /* border: 2px solid red; */
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;    
+}
+
+header li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    /* color: white; */
+}
+
+header li a:hover{
+    background: rgb(26, 7, 7);
+    color: white;
+}
+
+                                         /* section */
+
+section::before{
+    content: "";
+    background: url('../img/bg.jpg') center center/cover;
+    position: absolute;
+    /* background: rgba(94, 199, 248, 0.274); */
+    top: 0px;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.65; */
+}
+
+section{
+    /* border: 2px solid red; */
+    height: 399px;
+    display: flex;    
+    flex-direction: column;   
+    align-items: center;
+    justify-content: center;
+}
+
+#box1{
+    position: absolute;
+    margin: 10px;
+    left: -90px;
+    width: 250px;
+    height: 250px;
+    /* background: rgba(255, 0, 0, 0.270); */
+    /* border: 2px solid white; */
+    rotate: 45deg;
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: 50px;
+    box-shadow: 5px -5px 50px 0px black;
+}
+
+section img{
+    position: absolute;
+    border-radius: 50px;
+    width: 250px;
+    height: 250px;
+    z-index: -4;
+    opacity: 0.8;
+}
+
+section .text{
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(252, 251, 251);
+}
+
+.services{
+    /* border: 2px solid red; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* width: 100vw;
+    align-items: center;
+    justify-items: center; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+}
+.box{
+    border: 2px solid tomato;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 09px;
+    margin: 25px 3px;
+    background-color: rgba(169, 214, 253, 0.384);
+}
+.services img{
+    display: block;
+    margin: auto;
+    /* height: 160px; */
+}
+.clientbox1::before{
+    content: "";
+    position: absolute;
+    background: url('../img/client.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 9rem;
+    z-index: -1;
+    opacity: 0.5;
+}
+.clientbox1{
+    /* border: 2px solid tomato; */
+    display: flex;
+    /* width: 100vw; */
+    align-items: center;
+    justify-content: center;
+}
+
+.clientbox1 img{
+    /* border: 2px solid tomato; */
+    height: 50px;
+    width: 90px;
+    margin: 10px;
+}
+#contact h2{
+    position: relative;
+    margin: 60px 0px 0px 0px;
+}
+.contact-box{
+    /* border: 2px solid red; */
+    position: relative;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.contact-box input,
+.contact-box textarea{
+    /* width: 100%; */
+    padding: 0.3rem;
+    border-radius: 9px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: grey;
+}
+
+#sqr{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    /* border: 2px solid red; */
+    /* width: 123px;
+    height: 123px; */
+    margin: 10px 10px;
+}

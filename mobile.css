@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(214, 27, 27, 0.397);
+    
+}
+header {
+    flex-direction: column;
+    align-items: center;
+}
+header img{
+    position: relative;
+    top: -8px;
+    height: 25px;
+}
+#logo{
+    height: 20px;
+}
+span{
+    display: none;
+}
+header li a {    
+    padding: 0px;
+    margin: 4px;
+    
+}
+/* header ul{
+    flex-direction: column;
+
+} */
+section::before{
+    width: 100vw;
+}
+.services{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.clientbox1::before{
+    height: 10rem;
+}
+.clientbox1{
+    flex-wrap: wrap;
+}
+.clientbox1 img{
+    margin: 3px;
+}
+/* .contact form{
+    border: 2px solid red;
+    width: 100vw;
+    
+} */
+.contact-box input,
+.contact-box textarea{
+    width: 230px;
+    
+}
